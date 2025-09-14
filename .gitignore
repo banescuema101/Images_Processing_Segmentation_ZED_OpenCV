@@ -1,0 +1,19 @@
+# Build folders
+Debug/
+Release/
+x64/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.user
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
