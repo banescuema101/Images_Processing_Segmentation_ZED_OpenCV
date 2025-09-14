@@ -45,9 +45,7 @@ int main(int argc, char** argv) {
     // Create ZED objects
     Camera zed;
     InitParameters init_parameters;
-    //C:\Users\HP\OneDrive\Desktop\3D_CAMERAS\2025
-    //C:\Users\HP\OneDrive\Desktop\3D_CAMERAS\2025
-    init_parameters.input.setFromSVOFile("C:\\Users\\HP\\OneDrive\\Desktop\\3D_CAMERAS\\2025\\file1.svo");
+    init_parameters.input.setFromSVOFile("svo_files/file1.svo");
     init_parameters.depth_mode = sl::DEPTH_MODE::NEURAL;
 
     // Open the camera
