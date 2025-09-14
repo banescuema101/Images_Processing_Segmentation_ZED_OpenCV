@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ZED_SVO_Playback",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ZED_SVO_Playback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZED_SVO_Playback-Release-85ca03b409d7cdd8e0bc.json",
+					"name" : "ZED_SVO_Playback",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/HP/source/repos/banescuema101/Images_Processing_Segmentation_ZED_OpenCV/out/build/x64-Debug",
+		"source" : "C:/Users/HP/source/repos/banescuema101/Images_Processing_Segmentation_ZED_OpenCV"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
