@@ -30,7 +30,7 @@
 #include <opencv2/opencv.hpp>
 #include "utils.hpp"
 #include <iostream>
-#include "../../../../../CMake_builds_ZED_Camera_Project/Filter.h"
+#include "Filter.h"
 
 // Using namespace
 using namespace sl;
