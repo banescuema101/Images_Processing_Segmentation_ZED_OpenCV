@@ -42,12 +42,18 @@ void print(string msg_prefix, ERROR_CODE err_code = ERROR_CODE::SUCCESS, string 
 int main(int argc, char** argv) {
 
 
-    // Create ZED objects
+    // Default path
+    std::string svo_path = "svo_files/file1.svo";
+    // Parsed as an argument.
+    if (argc > 1) {
+        svo_path = argv[1];
+    }
+    cout << "Deschid SVO: " << svo_path << endl;
+
     Camera zed;
     InitParameters init_parameters;
-    init_parameters.input.setFromSVOFile("svo_files/file1.svo");
+    init_parameters.input.setFromSVOFile(svo_path);
     init_parameters.depth_mode = sl::DEPTH_MODE::NEURAL;
-
     // Open the camera
     auto returned_state = zed.open(init_parameters);
     if (returned_state != ERROR_CODE::SUCCESS) {
